@@ -1,10 +1,6 @@
-import telebot
-from telebot import types
-import yaml
-import Controller
-
+import config.InitConfig
 
 
 
 if __name__ == '__main__':
-    run_bot()
+    config.InitConfig.InitConfig().init()

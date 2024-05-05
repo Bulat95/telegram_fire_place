@@ -1,6 +1,7 @@
 import cv2
 import Main
 import json
+import telebot
 
 
 class Service:
